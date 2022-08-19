@@ -1,12 +1,12 @@
-Rick's Crystal Ball
+# Rick's Crystal Ball
 
 This is a ReactJS project based on the TV show Rick and Morty. The application should figure out the current location of a selected 
 character in the multiverse. Uses Rick and Morty API. 
 
-Recently Completed: 
+# Recently Completed: 
 - Basic UI
 
-TODO:
+# TODO:
 - Add hardcoded character cards
 - Return character data to the cards
 - Return location information from API endpoint.
