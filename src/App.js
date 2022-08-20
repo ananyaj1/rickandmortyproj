@@ -10,16 +10,12 @@ class Prediction extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: [
-        {
-          character: 'Rick',
-          test: 'Morty',
-        },
-
-      ]
+      selected: 'hey',
     }
   }
-
+  selectCharacter = () => {
+    this.setState({selected: 'Rick'});
+  }
   render() {
     return (
       <div className='App'>
@@ -41,21 +37,26 @@ class Prediction extends React.Component {
           </Grid>
           <Grid item xs={4}></Grid>
           <Grid item className='char' xs={3}>{
-            this.state.data.map((info, index)=> <Card key={index} info={info} />)
+            //this.state.data.map((info, index)=> <Card key={index} info={info} />)
+            <Card/>
           }</Grid>
+          <Grid><p>{this.state.checked}</p></Grid>
         </Grid>
       </div>
     );
   }
 }
+
 const Card = (props) =>
+<button type="button" className="btn btn-light" onClick={this.selectCharacter}>
 <div className='holder'>
 <div className='card'>
     <div className='card-body'>
-      <h5 className="card-title">{props.info.character}</h5>
+      <h5 className="card-title">Rick</h5>
       <h6 className="card-subtitle mb-2 text-muted">character title</h6>
       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
-</div>;
+</div>
+</button>;
 export default Prediction;
