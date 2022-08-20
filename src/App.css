@@ -12,7 +12,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.log{
+  max-height: 200px;
+}
+.fortune{
+  max-height: 200px;
+}
+img{
+  height: 100%;
+}
+.char{
+  background-color: white;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,7 +38,10 @@
 .App-link {
   color: #61dafb;
 }
-
+.text{
+  font-family: 'Unica One', cursive;
+  color: white;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +49,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.holder{
+  padding: 20px;
 }
