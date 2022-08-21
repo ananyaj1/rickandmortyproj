@@ -40,7 +40,7 @@ img{
 }
 .text{
   font-family: 'Unica One', cursive;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 @keyframes App-logo-spin {
   from {
