@@ -24,6 +24,9 @@ img{
 .char{
   background-color: white;
 }
+.loc{
+  color: rgb(244, 126, 126);
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,13 +37,19 @@ img{
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.card{
+  color: white;
+}
 
 .App-link {
   color: #61dafb;
 }
 .text{
   font-family: 'Unica One', cursive;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+*{
+  background-color: black;
 }
 @keyframes App-logo-spin {
   from {
